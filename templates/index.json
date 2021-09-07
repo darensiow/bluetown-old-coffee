@@ -1,0 +1,179 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our coffees are sourced from World Renowned Farms"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Check Coffee",
+            "button_link_1": "shopify:\/\/collections\/coffees",
+            "button_style_secondary_1": false,
+            "button_label_2": "Check Accessories",
+            "button_link_2": "shopify:\/\/collections\/accessories",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner_iamge_alt_1.jpg",
+        "image_2": "shopify:\/\/shop_images\/banner_image_main.jpg",
+        "desktop_text_box_position": "flex-end",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
+    },
+    "featured_products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "collection": "coffees",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false
+      }
+    },
+    "1630915258a69b427d": {
+      "type": "multicolumn",
+      "blocks": {
+        "163091525848eddfc5-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about_2.jpg",
+            "title": "Quality",
+            "text": "<p>We source the world’s best coffees and ship your coffee within 7 days of roasting. Freshness guaranteed. Further, with our wide variety, we promise you'll never get bored.<\/p>"
+          }
+        },
+        "163091525848eddfc5-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/delivery.jpg",
+            "title": "Convenience",
+            "text": "<p>We get it, life can be hectic. We help by delivering fresh coffees to your mailbox. Just tell us what you’d like and how often.<\/p>"
+          }
+        },
+        "163091525848eddfc5-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coins_in_cup.jpg",
+            "title": "Save Money",
+            "text": "<p>Save money while getting your caffeine fix by brewing your own cup of joe. You don’t have to be a barista to make great coffee.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163091525848eddfc5-0",
+        "163091525848eddfc5-1",
+        "163091525848eddfc5-2"
+      ],
+      "settings": {
+        "title": "Three Reasons to Try BlueTown Coffee ☕☕☕",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "163093394811ca078f": {
+      "type": "image-with-text",
+      "blocks": {
+        "1630933948b843948a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Gift Card 🎁"
+          }
+        },
+        "1630933948b843948a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Thinking of gifting someone who loves coffee but have no idea what to gift? Why not send them a gift voucher to shop on our webshop for some delicious coffee beans or brewing accessories or even some freshly brewed coffees at BlueTown?<\/p>"
+          }
+        },
+        "1630933948b843948a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Purchase",
+            "button_link": "shopify:\/\/products\/gift-card"
+          }
+        }
+      },
+      "block_order": [
+        "1630933948b843948a-0",
+        "1630933948b843948a-1",
+        "1630933948b843948a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/AdobeStock_269951709.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1630999579575431d4": {
+      "type": "collage",
+      "blocks": {
+        "16309995795eebb668-1": {
+          "type": "product",
+          "settings": {
+            "product": "coffee-brazil",
+            "secondary_background": false,
+            "second_image": false,
+            "image_padding": true
+          }
+        },
+        "16309995795eebb668-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "coffees",
+            "image_padding": true,
+            "color_scheme": "accent-1"
+          }
+        },
+        "47e9ef36-30f1-4cb7-ba9f-91d691066458": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Espresso.jpg",
+            "image_padding": false,
+            "color_scheme": "accent-1"
+          }
+        }
+      },
+      "block_order": [
+        "16309995795eebb668-1",
+        "16309995795eebb668-2",
+        "47e9ef36-30f1-4cb7-ba9f-91d691066458"
+      ],
+      "settings": {
+        "heading": "Featured Coffee of the Month",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_products",
+    "1630915258a69b427d",
+    "163093394811ca078f",
+    "1630999579575431d4"
+  ]
+}

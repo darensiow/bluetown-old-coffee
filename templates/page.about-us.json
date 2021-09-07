@@ -1,0 +1,85 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "1631013545678fbff7": {
+      "type": "image-banner",
+      "blocks": {
+        "1631013545072e9bfe-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hi! We're BlueTown Coffee!"
+          }
+        },
+        "1631013545072e9bfe-1": {
+          "type": "text",
+          "settings": {
+            "text": "We're a brand by and for ordinary people with extraordinary lives, and we're on a mission to make great and responsible coffee accessible to all."
+          }
+        }
+      },
+      "block_order": [
+        "1631013545072e9bfe-0",
+        "1631013545072e9bfe-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_1.jpg",
+        "desktop_text_box_position": "flex-end",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
+    },
+    "1631013575bf688e82": {
+      "type": "multicolumn",
+      "blocks": {
+        "16310135747cf4fcbb-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blog_3.jpg",
+            "title": "Anyone can make good coffee",
+            "text": "<p>Velit euismod in pellentesque massa placerat duis. Pellentesque adipiscing commodo elit at imperdiet dui accumsan. Scelerisque viverra mauris in aliquam sem fringilla ut morbi. Ac turpis egestas maecenas pharetra. Nullam eget felis eget nunc lobortis. Vitae sapien pellentesque habitant morbi. <\/p>"
+          }
+        },
+        "16310135747cf4fcbb-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blog_1.jpg",
+            "title": "Sustainability is our core",
+            "text": "<p>Orci dapibus ultrices in iaculis nunc sed augue lacus. Ultrices neque ornare aenean euismod elementum. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Lacus sed turpis tincidunt id aliquet risus feugiat in. Condimentum mattis pellentesque id nibh tortor. Scelerisque varius morbi enim nunc faucibus a pellentesque.<\/p>"
+          }
+        },
+        "16310135747cf4fcbb-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collage-section.jpg",
+            "title": "Quality Assurance",
+            "text": "<p>Suspendisse in est ante in nibh mauris cursus. Nibh tortor id aliquet lectus proin nibh nisl condimentum id. Tristique senectus et netus et malesuada. In hac habitasse platea dictumst. Auctor urna nunc id cursus metus aliquam eleifend mi in. Fermentum et sollicitudin ac orci phasellus egestas. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16310135747cf4fcbb-0",
+        "16310135747cf4fcbb-1",
+        "16310135747cf4fcbb-2"
+      ],
+      "settings": {
+        "title": "Our Beliefs",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1631013545678fbff7",
+    "1631013575bf688e82"
+  ]
+}

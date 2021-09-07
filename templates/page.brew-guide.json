@@ -1,0 +1,155 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "16309410136fdcd313": {
+      "type": "image-with-text",
+      "blocks": {
+        "163094101336fe48aa-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Espresso"
+          }
+        },
+        "163094101336fe48aa-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are going to walk you through, the step by step of, pulling a shot of espresso.<\/p>"
+          }
+        },
+        "163094101336fe48aa-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "shopify:\/\/pages\/espresso"
+          }
+        }
+      },
+      "block_order": [
+        "163094101336fe48aa-0",
+        "163094101336fe48aa-1",
+        "163094101336fe48aa-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Espresso.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1630941043c13eacf5": {
+      "type": "image-with-text",
+      "blocks": {
+        "16309410438e0e70e4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "V60"
+          }
+        },
+        "16309410438e0e70e4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Commonly called drip brew, pour over coffee, and filtered coffee, drip coffee is a straight to the point extraction method. Using only the force of gravity and some coffee ground, this is how your grandmother made her coffee.<\/p>"
+          }
+        },
+        "16309410438e0e70e4-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "shopify:\/\/pages\/drip-brew"
+          }
+        }
+      },
+      "block_order": [
+        "16309410438e0e70e4-0",
+        "16309410438e0e70e4-1",
+        "16309410438e0e70e4-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/drip_coffee.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
+    "1630941049996ea754": {
+      "type": "image-with-text",
+      "blocks": {
+        "16309410497e9ed523-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stove Top"
+          }
+        },
+        "16309410497e9ed523-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A real classic as far as extraction methods go. The stove top coffee maker is a simple, timeless, method to extract coffee. <\/p>"
+          }
+        },
+        "16309410497e9ed523-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "shopify:\/\/pages\/stove-top"
+          }
+        }
+      },
+      "block_order": [
+        "16309410497e9ed523-0",
+        "16309410497e9ed523-1",
+        "16309410497e9ed523-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/stovetop_coffee.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "163094106684fe0284": {
+      "type": "image-with-text",
+      "blocks": {
+        "1630941066672bbb8b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "French Press"
+          }
+        },
+        "1630941066672bbb8b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The French press goes by many names all over the world. You might know it as the coffee press or the coffee plunger. <\/p>"
+          }
+        },
+        "1630941066672bbb8b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "shopify:\/\/pages\/french-press"
+          }
+        }
+      },
+      "block_order": [
+        "1630941066672bbb8b-0",
+        "1630941066672bbb8b-1",
+        "1630941066672bbb8b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/french_press.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16309410136fdcd313",
+    "1630941043c13eacf5",
+    "1630941049996ea754",
+    "163094106684fe0284"
+  ]
+}

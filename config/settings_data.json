@@ -1,0 +1,95 @@
+{
+  "current": {
+    "colors_solid_button_labels": "#ffffff",
+    "colors_accent_1": "#022f6b",
+    "colors_accent_2": "#022f6b",
+    "colors_text": "#022f6b",
+    "colors_background_1": "#ffffff",
+    "colors_background_2": "#FAF1E9",
+    "accent_icons": "text",
+    "page_width": "1200",
+    "social_twitter_link": "https:\/\/twitter.com",
+    "social_facebook_link": "https:\/\/facebook.com",
+    "social_instagram_link": "http:\/\/instagram.com",
+    "social_youtube_link": "https:\/\/www.youtube.com",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "accent-2",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {}
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/BLUETOWN_37f2a306-7903-4fbf-81d1-d6689f1332be.png",
+          "logo_width": 150,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "f45a214c-3181-43f9-b459-1adde284e3e4": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Basics",
+              "menu": "footer-menu-basics"
+            }
+          },
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Shop Our Store",
+              "menu": "footer"
+            }
+          },
+          "44a5ae48-0164-4b27-9d97-6482c44f8f7b": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Brew Guides",
+              "menu": "footer-menu-brew-guide"
+            }
+          },
+          "a5e315e9-abcf-4e20-a4b7-071d80468226": {
+            "type": "text",
+            "settings": {
+              "heading": "Locate Us",
+              "subtext": "<p>Find us in Cantonment Park, just on the outskirts of the city central.<br\/><br\/>📍 23 Cantonment Park #01-40<br\/>Singapore 090023<br\/><br\/>☎️ <a href=\"tel:+6562202330\">+65 6990-2330<\/a><br\/>✉️ <a href=\"mailto:hello@nyloncoffee.sg\">hello@bluetowncoffee.sg<\/a><br\/><br\/><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "f45a214c-3181-43f9-b459-1adde284e3e4",
+          "footer-0",
+          "44a5ae48-0164-4b27-9d97-6482c44f8f7b",
+          "a5e315e9-abcf-4e20-a4b7-071d80468226"
+        ],
+        "settings": {
+          "color_scheme": "accent-2",
+          "newsletter_enable": true,
+          "newsletter_heading": "Sign up to our emails",
+          "show_social": true,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
+        }
+      }
+    },
+    "content_for_index": []
+  }
+}
