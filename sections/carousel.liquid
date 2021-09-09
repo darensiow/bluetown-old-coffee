@@ -24,6 +24,17 @@
     margin: 20px auto;
   }
   
+  @media only screen and (max-width: 989px) {
+    .carousel-container, .carousel-title {
+      width: 80%;
+    }
+  }
+
+  @media only screen and (max-width: 750px) {
+    .carousel-container, .carousel-title {
+      width: 90%;
+    }
+  }
 </style>
 
 
@@ -44,10 +55,18 @@
   $(document).ready(function(){
     $('.single-item').slick(
       {
-        dots: true
+        dots: true,
+        responsive: [
+          {
+            breakpoint: 750,
+            settings: {
+              arrows: false
+            }
+          }
+        ]
       }
-    );
-  })
+    )
+  });
 </script>
 
 {% schema %}
