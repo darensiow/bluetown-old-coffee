@@ -33,7 +33,7 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/BLUETOWN_37f2a306-7903-4fbf-81d1-d6689f1332be.png",
+          "logo": "shopify:\/\/shop_images\/BLUETOWN_1.png",
           "logo_width": 150,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -69,7 +69,7 @@
             "type": "text",
             "settings": {
               "heading": "Locate Us",
-              "subtext": "<p>Find us in Cantonment Park, just on the outskirts of the city central.<br\/><br\/>📍 23 Cantonment Park #01-40<br\/>Singapore 090023<br\/><br\/>☎️ <a href=\"tel:+6562202330\">+65 6990-2330<\/a><br\/>✉️ <a href=\"mailto:hello@nyloncoffee.sg\">hello@bluetowncoffee.sg<\/a><br\/><br\/><\/p>"
+              "subtext": "<p>📍 23 Cantonment Park #01-40<br\/>Singapore 090023<br\/><br\/>☎️ <a href=\"tel:+6562202330\">+65 6990-2330<\/a><br\/>✉️ <a href=\"mailto:hello@nyloncoffee.sg\">hello@bluetowncoffee.sg<\/a><br\/><br\/><strong>⏲ Opening hours:<\/strong><br\/>Wednesday - Friday \/\/ 8:30 - 4<br\/>Weekends \/\/ 9 - 4:30<br\/>Mondays & Tuesdays \/\/ Closed<br\/><br\/><\/p>"
             }
           }
         },
