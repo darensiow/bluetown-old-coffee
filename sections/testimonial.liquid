@@ -1,0 +1,145 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+  .testimonial-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .testimonial-slider {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .testimonial-card {
+    width: 350px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .testimonial-icon svg {
+    width: 35%;
+    max-height: 40px;
+    fill: rgb(var(--color-base-text));
+  }
+
+  .testimonial-text {
+    text-align: center;
+    padding: 15px 0px;
+  }
+
+  .testimonial-name {
+    padding: 15px 0;
+    text-align: center;
+  }
+
+  .testimonial-image img {
+    max-width: 40%;
+    border-radius: 50%;
+    padding: 15px 0;
+    /* Because slick turns images from inline to block, hence we center the image as such */
+    margin: 0 auto;
+  }
+
+  .slick-arrow::before {
+    color: rgb(var(--color-base-text)) !important;
+  }
+</style>
+
+<div class="testimonial-container page-width">
+<h2>{{ section.settings.header }}</h2>
+
+<div class="testimonial-slider">
+  {% for block in section.blocks %}
+  {% if block.type == 'card' %}
+    <div class="testimonial-card">
+      <div class="testimonial-icon">
+        {% render 'quote-marks' %}
+      </div>
+      <div class="testimonial-text">
+        {{ block.settings.testimonial-text }}
+      </div>
+      <div class="testimonial-image">
+        <img src="{{ block.settings.face-pic | img_url }}">
+      </div>
+      <div class="testimonial-name">{{ block.settings.name }}</div>
+    </div>
+  {% endif %}
+  {% endfor %}
+</div>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.testimonial-slider').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: true,
+        responsive: [
+          {
+            breakpoint: 989,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 750,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
+    });
+  </script>  
+
+{% schema %}
+{
+  "name": "Testimonial",
+  "settings": [
+    {
+      "type": "text",
+      "id": "header",
+      "label": "Header"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Card",
+      "type": "card",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "testimonial-text",
+          "label": "Testimonial Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "face-pic",
+          "label": "Picture of reviewer"
+        },
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Name of reviewer"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Testimonial"
+    }
+  ]
+}
+{% endschema %}
