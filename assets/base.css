@@ -2112,3 +2112,28 @@ details-disclosure > details {
   color: rgb(var(--color-foreground));
   word-break: break-word;
 }
+
+/*Styles for Coffee Info collapsible tab in product */
+.coffee-info {
+  width: 100%;
+}
+
+.coffee-info .indicator-bar {
+  display: flex;
+  padding: 5px 0;
+}
+
+.coffee-info .indicator-bar svg {
+  max-width: 35px;
+  max-height: 35px;
+  fill: rgb(var(--color-base-text));
+}
+
+.coffee-info, .coffee-info td {
+  border: 1px solid lightgrey;
+  border-collapse: collapse;
+}
+
+.coffee-info tr td:first-child {
+  font-weight: bold;
+}
