@@ -1,0 +1,117 @@
+<style>
+.faq {
+  margin-bottom: 40px;
+}
+
+.faq-category {
+  padding-top: 30px;
+}
+
+.faq-accordion {
+  display: block;
+  background-color: #eee;
+  color: #022F6B;
+  cursor: pointer;
+  width: 100%;
+  padding: 18px;
+  margin: 0 auto;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-size: 1.6rem;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .faq-accordion:hover {
+  background-color: #022F6B;
+  color: white;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.faq-panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+</style>
+<div class="faq page-width">
+  {% for block in section.blocks %}
+  {% if block.type == 'qna' %}
+    <button class="faq-accordion">{{ block.settings.question }}</button>
+    <div class="faq-panel">
+      <p>{{ block.settings.answer }}</p>
+    </div>
+
+  {% elsif block.type == 'category' %}
+    <h2 class="faq-category">{{ block.settings.category }}</h2>
+  {% endif %}
+  {% endfor %}
+</div>
+
+<script>
+
+var acc = document.getElementsByClassName("faq-accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+
+</script>
+
+{% schema %}
+{
+  "name": "FAQ",
+  "settings": [],
+  "blocks": [
+    {
+      "name": "Category",
+      "type": "category",
+      "settings": [
+        {
+          "type": "text",
+          "id": "category",
+          "label": "Input category name"
+        }
+      ]
+    },
+    {
+      "name": "Question & Answer",
+      "type": "qna",
+      "settings": [
+        {
+          "type": "text",
+          "id": "question",
+          "label": "Input question"
+        },
+        {
+          "type": "richtext",
+          "id": "answer",
+          "label": "Input answer"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "FAQ"
+    }
+  ]
+}
+{% endschema %}
