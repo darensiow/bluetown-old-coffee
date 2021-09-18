@@ -114,12 +114,57 @@
         "carousel-title": "The Life of a Bean",
         "carousel-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>"
       }
+    },
+    "163195318969af0f86": {
+      "type": "multicolumn",
+      "blocks": {
+        "163195318969af0f86-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/chief.jpg",
+            "title": "Coffee Chief",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>"
+          }
+        },
+        "163195318969af0f86-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/operations_head.jpg",
+            "title": "Operations Head",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>"
+          }
+        },
+        "163195318969af0f86-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bean_guru.jpg",
+            "title": "Bean Guru",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163195318969af0f86-0",
+        "163195318969af0f86-1",
+        "163195318969af0f86-2"
+      ],
+      "settings": {
+        "title": "Meet The Team",
+        "image_width": "full",
+        "image_ratio": "circle",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
     }
   },
   "order": [
     "main",
     "1631013545678fbff7",
     "1631013575bf688e82",
-    "1631189510a63d673e"
+    "1631189510a63d673e",
+    "163195318969af0f86"
   ]
 }
