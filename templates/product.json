@@ -48,6 +48,17 @@
         "share": {
           "type": "share",
           "settings": {}
+        },
+        "2a0ed6f4-89dd-46d7-85ae-e2d76042f253": {
+          "type": "coffee_info",
+          "settings": {
+            "heading": "Coffee Info",
+            "taste": "{{ product.metafields.my_fields.taste.value }}",
+            "strength": "{{ product.metafields.my_fields.strength.value }}",
+            "acidity": "{{ product.metafields.my_fields.acidity.value }}",
+            "type": "{{ product.metafields.my_fields.type.value }}",
+            "origin": "{{ product.metafields.my_fields.origin.value }}"
+          }
         }
       },
       "block_order": [
@@ -59,7 +70,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "2a0ed6f4-89dd-46d7-85ae-e2d76042f253"
       ],
       "settings": {
         "enable_sticky_info": true,
