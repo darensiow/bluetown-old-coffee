@@ -3,9 +3,95 @@
     "main": {
       "type": "main-page-alt",
       "settings": {}
+    },
+    "1631954036272ed547": {
+      "type": "faq",
+      "blocks": {
+        "9c667319-c752-4574-b034-2d3c9dbe856c": {
+          "type": "category",
+          "settings": {
+            "category": "BlueTown's Coffees"
+          }
+        },
+        "95833052-0110-41c9-9a82-89076424f403": {
+          "type": "qna",
+          "settings": {
+            "question": "Do your coffees expire?",
+            "answer": "<p>We recommend to consume freshly roasted coffee within 3 months of their roast date.<br\/><br\/>This is to ensure that you get the best brewing experience out of your coffee! We find that the aromas and flavours are optimal when coffee is within this period.<br\/><br\/>Once roasted, coffee will gradually lose its flavours intensity and go stale the more it is exposed to the elements (think oxygen, humidity, heat, light). Therefore, it is best to consume it as soon as possible, or at least in an airtight container - limiting the exposure to the environment.<br\/><br\/>We don't recommend keeping your coffee for longer than a year. So, drink up and enjoy the brew!<\/p>"
+          }
+        },
+        "02286710-3dd3-45fb-9bf1-23d3e52f8d67": {
+          "type": "qna",
+          "settings": {
+            "question": "Are your coffees organic?",
+            "answer": "<p>We'll label Organic certified coffees as such, when available on our website.<br\/><br\/>Not all of our coffees are certified or labelled \"Organic\".<br\/>There may be a number of reasons why this is the case:<br\/><br\/>We work  and get a number of our coffees from a few cooperatives and small holder farmers, who may not be able to afford the certification (or paying to obtain a piece of paper may not be their best interest at the time). The certification process for organic (and similarly for Fairtrade coffees) can be a hefty additional cost to farmers, many of whom cannot afford to get the certification.<\/p>"
+          }
+        },
+        "93fd006d-b592-436e-9402-38f2588ddb01": {
+          "type": "qna",
+          "settings": {
+            "question": "Are your coffees considered “specialty coffee”?",
+            "answer": "<p>Yes, they are Specialty graded coffees!<br\/><br\/>Specialty coffees are only deemed as such if they receive a Quality Score of more than 80 from the Specialty Coffee Association of America (SCAA). The Quality Score is based on a scale of 100 and is judged on a variety of factors, which include sweetness, acidity, balance, mouthfeel and flavour. BlueTown Coffee only ever buys beans that score 85 and above! <br\/><br\/>In terms of Varietal, it's not so simple as 'just' Arabica or Robusta.<br\/><br\/>Coffee is an ancient plant, with different varietals and genes dating hundreds of years back. Some varietals are natural cross-bred with Arabica and Robusta strains, while some are intentionally crossed to be hybrids, to improve yield and disease resistance.<br\/><br\/>Bottomline is: You can expect only the best coffees from us.<\/p>"
+          }
+        },
+        "a7cc1314-9243-4aee-9833-357679be4607": {
+          "type": "category",
+          "settings": {
+            "category": "Coffee and Brewing Tips"
+          }
+        },
+        "ae000e1b-529c-43f2-82de-f4f571f9e8e9": {
+          "type": "qna",
+          "settings": {
+            "question": "Why should I brew my own coffee?",
+            "answer": "<p>The most common objection we get to brewing your own specialty coffee at home is that it's just too much work.<br\/><br\/>Yes, great coffee at home may requires a bit more effort than instant coffee or a grab-and-go from a cafe, but it can be so worth it! Here's why:<br\/><br\/><strong>1. Money Saving<\/strong><br\/><br\/>This is an obvious one. While we can't compete on pricing with instant coffees (since we only offer the highest quality specialty-grade Arabica beans that are freshly roasted every week), brewing your own coffee is much more economical than visiting a cafe for your brew. <br\/><br\/><strong>2. Mugs and Re-usables are better for the environment<\/strong><br\/><br\/>A takeaway coffee every day is 365 paper cups in the bin every year. Just, don't, please.<br\/><br\/><strong>3. You can be as fussy as you like, or as experimental as you like<\/strong><br\/><br\/>Only you know exactly how you like your coffee. Doing it yourself means you get to tweak it exactly how you want it. You also get to experiment with different beans and brew methods, to keep things exciting or nail down your preferences.<br\/><br\/><strong>4. It can be a personal ritual, but also a social activity<\/strong><br\/><br\/>While brewing coffee at home is usually a therapeutic ritual customised to our own idiosyncracies, brewing coffee can also be a social activity. Whether you've invited some friends over, or have flatmates that you share common living spaces with, brewing coffee for someone else can be both an act of generosity and a great conversation lubricant.<\/p>"
+          }
+        },
+        "d8a3a760-2f67-40b8-94fe-17c054703739": {
+          "type": "qna",
+          "settings": {
+            "question": "I’m not sure how to brew my coffee. Any advice?",
+            "answer": "<p>There's so many ways of brewing coffee, differing from country to country, culture to culture.<br\/><br\/>One of the most common brew methods that we use are:<br\/><br\/><strong>Drip<\/strong> - Drippers such as the Hario V60 is a beloved brew method by coffee lovers and baristas around the world.  With the use of a paper filter, it produces a clean, transparent cup that is light bodied - perfect for analysing the different nuances.<\/p><p><br\/><strong>French Press\/Plunger<\/strong> - One of the most 'old school' coffee brewers there is, brewing with the French Press is fuss-free and simple. It produces a full-bodied cup with added richness.<\/p><p><br\/><strong>Aeropress<\/strong> - One of the most popular coffee brewer in recent times, the Aeropress is fun, easy-to-use, and versatile! There's many recipes and styles to brew on the Aeropress. You can achieve consistent and fuller bodied mouthfeel (by way of Immersion) while the included paper filters keep your brews clean.<\/p><p><br\/><strong>Cold Brew<\/strong> - Perfect for those hot, humid days. Cold Brew coffees are smooth, easy to drink, and easy to brew. All you need is a container, coffee, water and time.<\/p><p><br\/><strong>Espresso<\/strong> - Everyone loves a good cup of espresso. Words to describe the perfect espresso; rich, smooth, intense, sweet. Espresso is the base of so many drinks that we love; Long Black, Cappuccino, Flat White.<\/p>"
+          }
+        },
+        "f54c7281-c0d1-404c-9d56-2ef93b9a619f": {
+          "type": "category",
+          "settings": {
+            "category": "Delivery"
+          }
+        },
+        "54995274-3c73-4dbd-9e4d-83a3130622a2": {
+          "type": "qna",
+          "settings": {
+            "question": "When are orders dispatched?",
+            "answer": "<p>All new orders are usually dispatched within 1-2 working days upon placing your order (depending on availability).<\/p>"
+          }
+        },
+        "e75c8cda-24d0-4dbc-b1f1-37eef21a557c": {
+          "type": "qna",
+          "settings": {
+            "question": "What are my delivery options?",
+            "answer": "<p><strong>Shipping Within Singapore<\/strong><br\/><br\/><strong>Free Delivery (No tracking)<\/strong><br\/><br\/>The default method is FREE delivery via SingPost Normal Mail. Your package will be delivered directly into your mailbox within 3-8 working days.<br\/><br\/>We use SingPost Normal Mail to get your orders to you as it's the only service which gets your packages delivered directly to your mailbox so you don't have to worry about missed deliveries! The trade-off is that parcels are untrackable and sometimes delays do happen sometimes during transit, and sometimes parcels go missing. <br\/><br\/>Therefore, if you chose SingPost Normal Mail, we're afraid that we will not be liable for late or missing deliveries.<br\/><\/p><p><br\/><strong>Trackable Courier (Delivery within 2-4 days), $2.50<\/strong><br\/><br\/>If you would like to be able to track your deliveries or get your delivery expedited, we recommend that you opt for Express Courier delivery instead.<br\/><br\/>Please ensure that someone will be around to receive your delivery.<br\/><br\/>If you miss your delivery, you will be contacted by our delivery partner to reschedule.<br\/><br\/>Please note that all orders above S$50 or &gt;1kg will automatically qualify for FREE Express Courier (delivery via SingPost Normal Mail is not applicable for orders worth more than S$50 or &gt;1kg).<br\/><br\/><br\/><strong>International Shipping<\/strong><br\/><br\/>Unfortunately, we are unable to provide free shipping for international orders at the moment. Delivery cost varies depending on country and weight of items. Please email us at hola@hookcoffee.com.sg for courier delivery charges or for further assistance.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "9c667319-c752-4574-b034-2d3c9dbe856c",
+        "95833052-0110-41c9-9a82-89076424f403",
+        "02286710-3dd3-45fb-9bf1-23d3e52f8d67",
+        "93fd006d-b592-436e-9402-38f2588ddb01",
+        "a7cc1314-9243-4aee-9833-357679be4607",
+        "ae000e1b-529c-43f2-82de-f4f571f9e8e9",
+        "d8a3a760-2f67-40b8-94fe-17c054703739",
+        "f54c7281-c0d1-404c-9d56-2ef93b9a619f",
+        "54995274-3c73-4dbd-9e4d-83a3130622a2",
+        "e75c8cda-24d0-4dbc-b1f1-37eef21a557c"
+      ],
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "1631954036272ed547"
   ]
 }
