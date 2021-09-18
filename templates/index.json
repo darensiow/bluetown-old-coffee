@@ -167,6 +167,61 @@
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
+    },
+    "1631952295dca8259c": {
+      "type": "testimonial",
+      "blocks": {
+        "ce363427-ab95-4f9f-89b8-c052439f36a6": {
+          "type": "card",
+          "settings": {
+            "testimonial-text": "<p>Best coffee in town! Never fails to impress with its coffee selections! Staff are very attentive and go that extra mile to meet my requests! Two thumbs up! KEEP UP THE GOOD WORK!<\/p>",
+            "face-pic": "shopify:\/\/shop_images\/matt_reviewer.jpg",
+            "name": "Ethan Jones"
+          }
+        },
+        "4b5b22b9-d6ba-429f-be44-58ee5ea561f7": {
+          "type": "card",
+          "settings": {
+            "testimonial-text": "<p>I don’t know much about coffee but I have to say the Coffee Vietnam is amazing! I would definitely recommend other coffee drinkers to give this flavour a chance 😌😍 Would definitely try out other flavours in the reviews once I’m done with this! :) <\/p>",
+            "face-pic": "shopify:\/\/shop_images\/jane.reviewer.jpg",
+            "name": "Peggy Brown"
+          }
+        },
+        "2ee43197-cef7-444b-9462-7e11e7dd03e5": {
+          "type": "card",
+          "settings": {
+            "testimonial-text": "<p>Coffee that is my daily go-to choice! A cup for breakfast and another to chase away the post-lunch food coma sleepiness! Absolutely love their 'Warm Hugs' which goes really well with milk :)<\/p>",
+            "face-pic": "shopify:\/\/shop_images\/owen_reviewer.jpg",
+            "name": "Simon Davis"
+          }
+        },
+        "5a48289a-4596-47b2-b8bf-86c39dca8964": {
+          "type": "card",
+          "settings": {
+            "testimonial-text": "<p>Bluetown Coffee roasts great coffee, at fairly reasonable price. The beans are roasted consistently and makes good coffee even with my mediocre brewing skills. I never have any regrets ordering my coffee from them. They also have great deals and discounts for their brewing gears too. Do check them out!<\/p>",
+            "face-pic": "shopify:\/\/shop_images\/vanessa_reviewer.jpg",
+            "name": "Vanessa Johnson"
+          }
+        },
+        "d9b9fcfc-4d50-46ca-bce3-e1d108826ec6": {
+          "type": "card",
+          "settings": {
+            "testimonial-text": "<p>Superb coffee beans I ever bought! When opening up the package bag, the freshness and aroma can always tell the beans are so ready to be brewed :)<\/p>",
+            "face-pic": "shopify:\/\/shop_images\/kriti_reviewer.jpg",
+            "name": "Prisha"
+          }
+        }
+      },
+      "block_order": [
+        "ce363427-ab95-4f9f-89b8-c052439f36a6",
+        "4b5b22b9-d6ba-429f-be44-58ee5ea561f7",
+        "2ee43197-cef7-444b-9462-7e11e7dd03e5",
+        "5a48289a-4596-47b2-b8bf-86c39dca8964",
+        "d9b9fcfc-4d50-46ca-bce3-e1d108826ec6"
+      ],
+      "settings": {
+        "header": ""
+      }
     }
   },
   "order": [
@@ -174,6 +229,7 @@
     "featured_products",
     "1630915258a69b427d",
     "163093394811ca078f",
-    "1630999579575431d4"
+    "1630999579575431d4",
+    "1631952295dca8259c"
   ]
 }
